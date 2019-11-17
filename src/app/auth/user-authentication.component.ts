@@ -44,7 +44,7 @@ export class UserAuthenticationComponent implements OnInit {
       .then(data => {
         console.log(data);
         this.toVerifyEmail = true;
-        this.signstatus = '';
+        this.signstatus = "";
       })
       .catch(err => console.log(err));
   

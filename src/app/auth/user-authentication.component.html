@@ -18,6 +18,8 @@
         </div>
     </div>
 
+    <!-- User Sing up -->
+
     <div class="row sign-up row-center" *ngIf="signstatus == 'signup'">
         <div class="col-sm-6">
                 <div class="form-group">
@@ -41,6 +43,8 @@
         </div>
     </div>
 
+    <!-- User Sign In -->
+
     <div class="row sign-in row-center" *ngIf="signstatus == 'signin'">
         <div class="col-sm-6">
                 <div class="form-group">
@@ -55,6 +59,9 @@
                 <button type="button" class="btn btn-primary" (click)="signInToAWS(email, password)">Sign In</button>
         </div>
     </div>
+
+    <!-- Email verification -->
+    
     <div class="row row-center" *ngIf="toVerifyEmail">
         <div class="col-sm-6">
                 <div class="form-group">

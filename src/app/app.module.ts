@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserAuthenticationComponent } from './user-authentication/user-authentication.component';
+import { UserAuthenticationComponent } from './auth/user-authentication.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
