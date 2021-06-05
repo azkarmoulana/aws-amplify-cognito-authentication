@@ -1,4 +1,4 @@
-# Aws-Cognito-Amplify-Angualr
+# Aws-Cognito-Amplify-Angular
 ***
 
 
